@@ -1,0 +1,39 @@
+.add__text,.add__date{
+    width: 100%;
+    height: calc(1.6em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 425px) {
+    .row{
+        margin-right: -5px;
+        margin-left: -5px;
+        padding-right: unset;
+    }
+
+    .add__date{
+        margin-top: 2px;
+        width: 60%;
+        margin-left: 0.65rem;
+    } 
+    .btn{
+        margin-top: 2px;
+        margin-right: 5px;
+        flex: none;
+        max-width: 20%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .text-danger{
+        margin-left: 0.65rem;
+    }
+}
